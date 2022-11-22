@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+    int V, S;
+    cout << "Введите расстояние в км: ";
+    cin >> S;
+    cout << "Введите скорость М/с: ";
+    cin >> V;
+    int sec = (S*1000) / V;
+    
+ cout << "Времени в пути " << sec << " сек. " << endl;
+    return 0;
+}
