@@ -1,0 +1,18 @@
+#include<iostream> 
+using namespace std;
+int main()
+{
+    int a, b, c;
+    cout <<("Vvedite znach a:") << endl;
+    cin >> a;
+    cout <<("Vvedite znach b:") << endl;
+    cin >> b;
+    cout <<("Vvedite znach c:") << endl;
+    cin >> c;
+    int Q = a/1;
+    int W = b/1;
+    int E = c/1;
+    int G = (Q+W+E) / 3;
+    cout << "Средние грамм знач чисел " << " " << a << " " << b << " " << c << " равно " << G << endl;
+    return 0;
+}
