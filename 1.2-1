@@ -1,0 +1,23 @@
+#include<iostream> 
+#include<math.h> 
+#include<cmath>
+#include<conio.h> 
+using namespace std;
+int main()
+{
+    float a, b, c, x, z, y;
+    cout <<("Vvedite znach a:") << endl;
+    cin >> a;
+    cout <<("Vvedite znach b:") << endl;
+    cin >> b;
+    cout <<("Vvedite znach c:") << endl;
+    cin >> c;
+    if ((a + b < c) || (a + c < b) || (b + c < a)) cout << "ds" << endl;
+    x = (pow(a, 2) + pow(c, 2) - pow(b, 2)) / (2 * a * c);
+    z = (pow(a, 2) + pow(b, 2) - pow(c, 2)) / (2 * a * b);
+    y = (pow(b, 2) + pow(c, 2) - pow(a, 2)) / (2 * c * b);
+    cout <<("Ugol treul:");
+    cout << "x=" << x << " z=" << z << " y=" << y << endl;
+
+    return 0;
+}
