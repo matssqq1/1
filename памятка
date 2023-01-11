@@ -1,0 +1,18 @@
+#include <iostream> //основная библеотка
+
+using namespace std;
+
+int main()
+{
+    int a,b,f; // обевление
+    
+    cin >> a;
+    
+    cin >> b; //ввод значение в b
+    
+        f=a/b;
+        
+    cout<<f; // ввывод f пи выводе текста "   "
+    
+    return 0; //конец
+}
