@@ -1,0 +1,11 @@
+#include <iostream> //основная библеотка
+using namespace std;
+int main()
+{
+    int summa=0;
+    int a,b=10;
+    for (a=1;a<=b;a++)
+    summa=summa+a;
+    cout <<"summa="<<summa;
+    return 0;
+}
